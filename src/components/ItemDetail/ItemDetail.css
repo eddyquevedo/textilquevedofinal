@@ -1,0 +1,40 @@
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+@media screen and (min-width:768px){
+    .container{
+        width: 60%;
+    }
+}
+
+.detail{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail_image{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .detail_image{
+        width: 50%;
+    }
+    .content{
+        padding-left: 3rem;
+        width: 50%;
+    }
+}
+
+.color_precio{
+    color: rgb(204, 22, 22);
+}
